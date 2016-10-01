@@ -1,0 +1,202 @@
+/*我知道很复杂（其实并不），但大多数都是定义各种style等非常琐碎的内容。在学习CS的过程中，经常会看到一堆不知道什么
+玩意儿的starter code，这种时候你只需要跟着做就行了，不用全理解 */
+
+div.header{
+	/*position: fixed;*/
+	color: white;
+	margin-bottom: 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 0;
+	/* center all inline content */
+	text-align: center;
+}
+
+div#logo{
+	position: absolute;
+	font-size: 30px;
+	margin: 6px 3px;
+}
+
+ul#nav {
+   margin: 0;
+   background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+}
+
+ul#nav li {
+   display: inline;
+}
+
+ul#nav li a:link{
+   display: inline-block;
+   margin: 10px 3px;
+   padding: .3em .4em .3em .4em;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: 150%;
+   color: #fff;
+   /*text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4);*/
+}
+
+img.bg{
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+div.main{
+	padding-top: 60px;
+}
+
+ul{
+	line-height: 25px;
+}
+
+div.maintb{
+	padding-bottom: 40px;
+}
+
+div.section{
+	text-align: center;
+}
+
+
+li{
+	list-style: none;
+}
+
+h2{
+	color: white;
+}
+
+.rTable {
+   	display: table;
+   	width: 60%;
+   	color: white;
+   	margin: 0 auto;
+   	padding-top: 10px;
+}
+.rTableRow {
+   	display: table-row;
+   	text-align: center;
+}
+
+.rTableCell, .rTableHead {
+   	display: table-cell;
+    padding: 5px 10px;
+}
+
+.rTableCell{
+	text-align: left;
+	padding-left: 35px;
+}
+
+.rTableHead{
+	border-bottom: 1px solid #fff;
+}
+
+
+.text{  /*corrsponding class "text" in */
+	margin: 0 20%;
+	text-align: center;
+	color: white;
+}
+
+div.text h4{
+	line-height: 25px;
+}
+
+div.main div.text div.subtext{
+	position: relative;
+	text-align: left;
+	font-size: 1em;
+}
+
+
+form {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 343px;
+    height: 333px;
+    padding: 30px;
+    border: 1px solid rgba(0,0,0,.2);
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+    overflow: hidden;
+}
+
+textarea{
+	background: rgba(255, 255, 255, 0.4) scroll 16px 16px;
+    width: 276px;
+    height: 270px;
+    border: 1px solid rgba(255,255,255,.6);
+    border-radius: 4px;
+    display:block;
+		font-size:18px;
+    color:#fff;
+    padding-left:45px;
+    padding-right:20px;
+    padding-top:12px;
+    margin-bottom:20px;
+    overflow:hidden;
+}
+
+input {
+    width: 276px;
+    height: 48px;
+    border: 1px solid rgba(255,255,255,.4);
+    border-radius: 4px;
+    display:block;
+		font-size:18px;
+    color:#fff;
+    padding-left:20px;
+    padding-right:20px;
+    margin-bottom:20px;
+}
+
+input[type=submit] {
+    cursor:pointer;
+}
+
+input:focus, textarea:focus {
+	background-color: rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+    -webkit-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+    box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+	overflow: hidden;
+}
+
+button {
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+div.footer, div.footer a {
+	text-align: center;
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 5em;
+    text-decoration: none;
+    padding: -10px;
+    color: white;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 5%, #A9A9A9 50%, ##A9A9A9 50%, rgba(255, 255, 255, 0) 95%);
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.6);
+}
