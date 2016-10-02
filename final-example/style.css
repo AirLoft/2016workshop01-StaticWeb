@@ -2,7 +2,6 @@
 玩意儿的starter code，这种时候你只需要跟着做就行了，不用全理解 */
 
 div.header{
-	/*position: fixed;*/
 	color: white;
 	margin-bottom: 50px;
 	position: fixed;
@@ -27,6 +26,7 @@ ul#nav {
 
 ul#nav li {
    display: inline;
+   list-style: none;
 }
 
 ul#nav li a:link{
@@ -38,22 +38,6 @@ ul#nav li a:link{
    font-size: 150%;
    color: #fff;
    /*text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4);*/
-}
-
-img.bg{
-  /* Set rules to fill background */
-  min-height: 100%;
-  min-width: 1024px;
-
-  /* Set up proportionate scaling */
-  width: 100%;
-  height: auto;
-
-  /* Set up positioning */
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -1;
 }
 
 div.main{
@@ -73,9 +57,6 @@ div.section{
 }
 
 
-li{
-	list-style: none;
-}
 
 h2{
 	color: white;
