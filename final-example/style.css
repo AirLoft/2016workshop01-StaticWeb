@@ -29,7 +29,8 @@ ul#nav li {
    list-style: none;
 }
 
-ul#nav li a:link{
+ul#nav li a{
+   color: inherit;
    display: inline-block;
    margin: 10px 3px;
    padding: .3em .4em .3em .4em;
