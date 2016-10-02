@@ -136,29 +136,9 @@ textarea{
     overflow:hidden;
 }
 
-input {
-    width: 276px;
-    height: 48px;
-    border: 1px solid rgba(255,255,255,.4);
-    border-radius: 4px;
-    display:block;
-		font-size:18px;
-    color:#fff;
-    padding-left:20px;
-    padding-right:20px;
-    margin-bottom:20px;
-}
 
-input[type=submit] {
-    cursor:pointer;
-}
-
-input:focus, textarea:focus {
+textarea:focus {
 	background-color: rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
-    -webkit-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
-    box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
-	overflow: hidden;
 }
 
 button {
